@@ -23,7 +23,7 @@ pipeline {
             steps {
                 script {
  
-                    git branch: 'main', url: 'https://github.com/clement2019/nodejs-jenkins.git' 
+                    git branch: 'main', url: 'https://github.com/clement2019/docker_repo1_ecr.git' 
                 }
             }
         }
