@@ -20,7 +20,7 @@ sleep 30
 sudo apt install -y docker.io
 
 # Add the current user to the 'docker' group 
-sudo usermod -aG docker $USER
+sudo chmod 777 /var/run/docker.sock
 
 # Start and enable Docker service
 sudo systemctl start docker
