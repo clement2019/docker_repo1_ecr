@@ -15,7 +15,7 @@ sudo apt-get update -y
 sudo apt-get install jenkins -y
 
 echo "Waiting for 30 seconds before installing the aws cli..."
-sleep 30
+sleep 15
 
 sudo apt install -y docker.io
 
@@ -29,7 +29,7 @@ sudo systemctl enable docker
 # Print Docker version
 docker --version
 echo "Waiting for 30 seconds before installing the aws cli..."
-sleep 30
+sleep 15
 
 ## install aws cli
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" 
